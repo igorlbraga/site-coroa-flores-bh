@@ -11,6 +11,26 @@ const SITES = [
   { code: "sp", label: "SP", domain: "coroafloressaopaulo.com.br" },
 ];
 
+const COMPLETE_WORD_THRESHOLD = 2000;
+
+function wordCount(loc) {
+  let n = (loc.introduction || "").split(/\s+/).filter(Boolean).length;
+  for (const key of ["infoSections", "tributeSections"]) {
+    for (const s of loc[key] || []) {
+      for (const p of s.paragraphs || []) {
+        n += p.split(/\s+/).filter(Boolean).length;
+      }
+    }
+  }
+  return n;
+}
+
+function statusFor(loc) {
+  const wc = wordCount(loc);
+  if (wc >= COMPLETE_WORD_THRESHOLD) return { icon: "✅", label: "Completo", wc };
+  return { icon: "🟡", label: "Genérico", wc };
+}
+
 const lines = [];
 lines.push("# Índice de Locais");
 lines.push("");
@@ -30,15 +50,20 @@ for (const site of SITES) {
     return c !== 0 ? c : a.name.localeCompare(b.name, "pt-BR");
   });
 
-  summary.push(`- **${site.label}** (${site.domain}): ${data.length} locais`);
+  const completos = data.filter((l) => wordCount(l) >= COMPLETE_WORD_THRESHOLD).length;
+  const genericos = data.length - completos;
+  summary.push(
+    `- **${site.label}** (${site.domain}): ${data.length} locais — ✅ ${completos} completos · 🟡 ${genericos} genéricos`,
+  );
 
   const block = [];
   block.push(`## ${site.label} — ${site.domain} (${data.length} locais)`);
   block.push("");
-  block.push("| Slug | Nome | Cidade |");
-  block.push("|---|---|---|");
+  block.push("| Status | Slug | Nome | Cidade |");
+  block.push("|---|---|---|---|");
   for (const loc of data) {
-    block.push(`| \`${loc.slug}\` | ${loc.name} | ${loc.city} |`);
+    const s = statusFor(loc);
+    block.push(`| ${s.icon} | \`${loc.slug}\` | ${loc.name} | ${loc.city} |`);
   }
   block.push("");
   sectionBlocks.push(block.join("\n"));
@@ -47,6 +72,11 @@ for (const site of SITES) {
 lines.push("## Resumo");
 lines.push("");
 lines.push(...summary);
+lines.push("");
+lines.push("## Legenda de status");
+lines.push("");
+lines.push(`- ✅ **Completo**: conteúdo SEO extenso (≥ ${COMPLETE_WORD_THRESHOLD} palavras, 6+ seções)`);
+lines.push("- 🟡 **Genérico**: template padrão (3+3 seções, ~400 palavras)");
 lines.push("");
 lines.push("## URL");
 lines.push("");
