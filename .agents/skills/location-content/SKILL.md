@@ -30,7 +30,11 @@ Se o usuario fornecer varios locais de uma vez, processe um por vez para manter 
 
 ### Passo 2: Verificar Duplicatas
 
-Leia `src/data/locations.json` e verifique se o slug gerado ja existe. Se existir, avise o usuario e pergunte como prosseguir (atualizar ou cancelar).
+Leia `src/data/locations-index.md` e verifique se o slug ou o nome do local ja aparece na tabela da cidade-alvo (BH, RJ ou SP). Se ja existir, avise o usuario e pergunte como prosseguir (atualizar ou cancelar).
+
+**Por que o indice e nao o JSON da cidade:** `locations-index.md` e gerado automaticamente a partir dos `src/data/cities/{slug}/locations.json` das 3 cidades e contem `slug | nome | cidade` de todos os locais ja publicados. Ele e bem mais leve que abrir os JSONs completos e da visao consolidada de todas as cidades de uma vez (util para detectar locais homonimos em UFs diferentes ou slugs colidindo entre cidades).
+
+Se o indice estiver visivelmente desatualizado (ex: usuario diz que acabou de adicionar um local que nao aparece), peca para regenerar com `node scripts/build-locations-index.mjs` antes de continuar.
 
 Gere o slug no formato: `{nome-slugificado}-{cidade-slugificada}` (lowercase, hifens, sem acentos, sem caracteres especiais).
 
@@ -90,20 +94,19 @@ Exemplo:
 
 ### Passo 7: Salvar Output
 
-Salve o JSON em `src/data/locations/generated/{slug}.json`. O arquivo contem um unico objeto Location (sem array).
-
-Exiba o JSON completo no chat para revisao.
+Exiba o JSON completo no chat para revisao. O arquivo contem um unico objeto `Location` (sem array) que sera mesclado no array existente da cidade.
 
 ### Passo 8: Instrucoes de Integracao
 
-Informe ao usuario como adicionar o local ao site:
-1. Revisar o JSON gerado
-2. Copiar o objeto para o array em `src/data/locations.json`
-3. Se a cidade for nova, adicionar em `src/data/cities.json` e `src/data/regions.json`
-4. Rodar `npm run build` para verificar que compila sem erros
-5. A pagina estara disponivel em `/locais/{slug}`
+Informe ao usuario como adicionar o local ao site (ou ofereca para fazer o merge automaticamente):
 
-Ou ofereca para fazer o merge automaticamente.
+1. Revisar o JSON gerado.
+2. Adicionar o objeto ao array em `src/data/cities/{cidade}/locations.json` (onde `{cidade}` e `bh`, `rj` ou `sp` — o slug da cidade ativa). Se a regiao/subregiao nao existir, adicionar tambem em `src/data/cities/{cidade}/regions.json`.
+3. Regenerar o indice consolidado: `node scripts/build-locations-index.mjs` — isso atualiza `src/data/locations-index.md` para refletir o novo local.
+4. Rodar `npm run build` para verificar que compila sem erros.
+5. A pagina estara disponivel em `/locais/{slug}`.
+
+**Importante:** nao edite `src/data/locations-index.md` a mao — ele e regenerado pelo script a partir dos JSONs das cidades.
 
 ---
 

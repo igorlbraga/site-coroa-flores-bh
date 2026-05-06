@@ -3,47 +3,142 @@
     "name": "Belo Horizonte — Capital",
     "slug": "belo-horizonte",
     "cities": [
-      { "name": "Centro", "slug": "centro" },
-      { "name": "Região Norte", "slug": "regiao-norte" },
-      { "name": "Região Sul", "slug": "regiao-sul" },
-      { "name": "Região Leste", "slug": "regiao-leste" },
-      { "name": "Região Oeste", "slug": "regiao-oeste" },
-      { "name": "Pampulha", "slug": "pampulha" }
+      {
+        "name": "Centro",
+        "slug": "centro"
+      },
+      {
+        "name": "Região Norte",
+        "slug": "regiao-norte"
+      },
+      {
+        "name": "Região Sul",
+        "slug": "regiao-sul"
+      },
+      {
+        "name": "Região Leste",
+        "slug": "regiao-leste"
+      },
+      {
+        "name": "Região Oeste",
+        "slug": "regiao-oeste"
+      },
+      {
+        "name": "Pampulha",
+        "slug": "pampulha"
+      }
     ]
   },
   {
     "name": "Região Metropolitana — Oeste",
     "slug": "regiao-metropolitana-oeste",
     "cities": [
-      { "name": "Contagem", "slug": "contagem" },
-      { "name": "Betim", "slug": "betim" },
-      { "name": "Ibirité", "slug": "ibirite" }
+      {
+        "name": "Contagem",
+        "slug": "contagem"
+      },
+      {
+        "name": "Betim",
+        "slug": "betim"
+      },
+      {
+        "name": "Ibirité",
+        "slug": "ibirite"
+      }
     ]
   },
   {
     "name": "Região Metropolitana — Norte",
     "slug": "regiao-metropolitana-norte",
     "cities": [
-      { "name": "Ribeirão das Neves", "slug": "ribeirao-das-neves" },
-      { "name": "Santa Luzia", "slug": "santa-luzia" },
-      { "name": "Vespasiano", "slug": "vespasiano" },
-      { "name": "Lagoa Santa", "slug": "lagoa-santa" }
+      {
+        "name": "Ribeirão das Neves",
+        "slug": "ribeirao-das-neves"
+      },
+      {
+        "name": "Santa Luzia",
+        "slug": "santa-luzia"
+      },
+      {
+        "name": "Vespasiano",
+        "slug": "vespasiano"
+      },
+      {
+        "name": "Lagoa Santa",
+        "slug": "lagoa-santa"
+      }
     ]
   },
   {
     "name": "Região Metropolitana — Leste e Sul",
     "slug": "regiao-metropolitana-leste-sul",
     "cities": [
-      { "name": "Sabará", "slug": "sabara" },
-      { "name": "Nova Lima", "slug": "nova-lima" }
+      {
+        "name": "Sabará",
+        "slug": "sabara"
+      },
+      {
+        "name": "Nova Lima",
+        "slug": "nova-lima"
+      },
+      {
+        "name": "Brumadinho",
+        "slug": "brumadinho"
+      }
     ]
   },
   {
     "name": "Interior de Minas",
     "slug": "interior-de-minas",
     "cities": [
-      { "name": "Juiz de Fora", "slug": "juiz-de-fora" },
-      { "name": "Uberlândia", "slug": "uberlandia" }
+      {
+        "name": "Juiz de Fora",
+        "slug": "juiz-de-fora"
+      },
+      {
+        "name": "Uberlândia",
+        "slug": "uberlandia"
+      },
+      {
+        "name": "Conselheiro Lafaiete",
+        "slug": "conselheiro-lafaiete"
+      },
+      {
+        "name": "Divinópolis",
+        "slug": "divinopolis"
+      },
+      {
+        "name": "Governador Valadares",
+        "slug": "governador-valadares"
+      },
+      {
+        "name": "Ipatinga",
+        "slug": "ipatinga"
+      },
+      {
+        "name": "Itabira",
+        "slug": "itabira"
+      },
+      {
+        "name": "Montes Claros",
+        "slug": "montes-claros"
+      },
+      {
+        "name": "Pouso Alegre",
+        "slug": "pouso-alegre"
+      },
+      {
+        "name": "Poços de Caldas",
+        "slug": "pocos-de-caldas"
+      },
+      {
+        "name": "Sete Lagoas",
+        "slug": "sete-lagoas"
+      },
+      {
+        "name": "Uberaba",
+        "slug": "uberaba"
+      }
     ]
   }
 ]

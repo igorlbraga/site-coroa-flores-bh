@@ -3,37 +3,146 @@
     "name": "Rio de Janeiro — Capital",
     "slug": "rio-de-janeiro",
     "cities": [
-      { "name": "Zona Sul", "slug": "zona-sul" },
-      { "name": "Zona Norte", "slug": "zona-norte" },
-      { "name": "Zona Oeste", "slug": "zona-oeste" },
-      { "name": "Centro", "slug": "centro" }
+      {
+        "name": "Zona Sul",
+        "slug": "zona-sul"
+      },
+      {
+        "name": "Zona Norte",
+        "slug": "zona-norte"
+      },
+      {
+        "name": "Zona Oeste",
+        "slug": "zona-oeste"
+      },
+      {
+        "name": "Centro",
+        "slug": "centro"
+      }
     ]
   },
   {
     "name": "Região Metropolitana — Leste",
     "slug": "regiao-metropolitana-leste",
     "cities": [
-      { "name": "Niterói", "slug": "niteroi" },
-      { "name": "São Gonçalo", "slug": "sao-goncalo" },
-      { "name": "Itaboraí", "slug": "itaborai" },
-      { "name": "Magé", "slug": "mage" }
+      {
+        "name": "Niterói",
+        "slug": "niteroi"
+      },
+      {
+        "name": "São Gonçalo",
+        "slug": "sao-goncalo"
+      },
+      {
+        "name": "Itaboraí",
+        "slug": "itaborai"
+      },
+      {
+        "name": "Magé",
+        "slug": "mage"
+      },
+      {
+        "name": "Tanguá",
+        "slug": "tangua"
+      }
     ]
   },
   {
     "name": "Baixada Fluminense",
     "slug": "baixada-fluminense",
     "cities": [
-      { "name": "Duque de Caxias", "slug": "duque-de-caxias" },
-      { "name": "Nova Iguaçu", "slug": "nova-iguacu" },
-      { "name": "Belford Roxo", "slug": "belford-roxo" },
-      { "name": "São João de Meriti", "slug": "sao-joao-de-meriti" }
+      {
+        "name": "Duque de Caxias",
+        "slug": "duque-de-caxias"
+      },
+      {
+        "name": "Nova Iguaçu",
+        "slug": "nova-iguacu"
+      },
+      {
+        "name": "Belford Roxo",
+        "slug": "belford-roxo"
+      },
+      {
+        "name": "São João de Meriti",
+        "slug": "sao-joao-de-meriti"
+      },
+      {
+        "name": "Mesquita",
+        "slug": "mesquita"
+      },
+      {
+        "name": "Nilópolis",
+        "slug": "nilopolis"
+      },
+      {
+        "name": "Queimados",
+        "slug": "queimados"
+      }
     ]
   },
   {
     "name": "Região Serrana",
     "slug": "regiao-serrana",
     "cities": [
-      { "name": "Petrópolis", "slug": "petropolis" }
+      {
+        "name": "Petrópolis",
+        "slug": "petropolis"
+      },
+      {
+        "name": "Cachoeiras de Macacu",
+        "slug": "cachoeiras-de-macacu"
+      }
+    ]
+  },
+  {
+    "name": "Sul Fluminense",
+    "slug": "sul-fluminense",
+    "cities": [
+      {
+        "name": "Volta Redonda",
+        "slug": "volta-redonda"
+      }
+    ]
+  },
+  {
+    "name": "Norte Fluminense",
+    "slug": "norte-fluminense",
+    "cities": [
+      {
+        "name": "Campos dos Goytacazes",
+        "slug": "campos-dos-goytacazes"
+      }
+    ]
+  },
+  {
+    "name": "Região dos Lagos",
+    "slug": "regiao-dos-lagos",
+    "cities": [
+      {
+        "name": "Maricá",
+        "slug": "marica"
+      },
+      {
+        "name": "Saquarema",
+        "slug": "saquarema"
+      },
+      {
+        "name": "Araruama",
+        "slug": "araruama"
+      },
+      {
+        "name": "São Pedro da Aldeia",
+        "slug": "sao-pedro-da-aldeia"
+      },
+      {
+        "name": "Cabo Frio",
+        "slug": "cabo-frio"
+      },
+      {
+        "name": "Búzios",
+        "slug": "buzios"
+      }
     ]
   }
 ]

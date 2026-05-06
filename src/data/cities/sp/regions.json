@@ -3,60 +3,188 @@
     "name": "São Paulo — Capital",
     "slug": "sao-paulo",
     "cities": [
-      { "name": "Zona Norte", "slug": "zona-norte" },
-      { "name": "Zona Sul", "slug": "zona-sul" },
-      { "name": "Zona Leste", "slug": "zona-leste" },
-      { "name": "Zona Oeste", "slug": "zona-oeste" },
-      { "name": "Centro", "slug": "centro" }
+      {
+        "name": "Zona Norte",
+        "slug": "zona-norte"
+      },
+      {
+        "name": "Zona Sul",
+        "slug": "zona-sul"
+      },
+      {
+        "name": "Zona Leste",
+        "slug": "zona-leste"
+      },
+      {
+        "name": "Zona Oeste",
+        "slug": "zona-oeste"
+      },
+      {
+        "name": "Centro",
+        "slug": "centro"
+      }
     ]
   },
   {
     "name": "ABC Paulista",
     "slug": "abc-paulista",
     "cities": [
-      { "name": "Santo André", "slug": "santo-andre" },
-      { "name": "São Bernardo do Campo", "slug": "sao-bernardo-do-campo" },
-      { "name": "São Caetano do Sul", "slug": "sao-caetano-do-sul" },
-      { "name": "Diadema", "slug": "diadema" },
-      { "name": "Mauá", "slug": "maua" },
-      { "name": "Ribeirão Pires", "slug": "ribeirao-pires" },
-      { "name": "Rio Grande da Serra", "slug": "rio-grande-da-serra" }
+      {
+        "name": "Santo André",
+        "slug": "santo-andre"
+      },
+      {
+        "name": "São Bernardo do Campo",
+        "slug": "sao-bernardo-do-campo"
+      },
+      {
+        "name": "São Caetano do Sul",
+        "slug": "sao-caetano-do-sul"
+      },
+      {
+        "name": "Diadema",
+        "slug": "diadema"
+      },
+      {
+        "name": "Mauá",
+        "slug": "maua"
+      },
+      {
+        "name": "Ribeirão Pires",
+        "slug": "ribeirao-pires"
+      },
+      {
+        "name": "Rio Grande da Serra",
+        "slug": "rio-grande-da-serra"
+      }
     ]
   },
   {
     "name": "Região Metropolitana — Oeste",
     "slug": "regiao-metropolitana-oeste",
     "cities": [
-      { "name": "Osasco", "slug": "osasco" },
-      { "name": "Barueri", "slug": "barueri" },
-      { "name": "Carapicuíba", "slug": "carapicuiba" },
-      { "name": "Cotia", "slug": "cotia" },
-      { "name": "Itapevi", "slug": "itapevi" },
-      { "name": "Jandira", "slug": "jandira" },
-      { "name": "Santana de Parnaíba", "slug": "santana-de-parnaiba" },
-      { "name": "Taboão da Serra", "slug": "taboao-da-serra" }
+      {
+        "name": "Osasco",
+        "slug": "osasco"
+      },
+      {
+        "name": "Barueri",
+        "slug": "barueri"
+      },
+      {
+        "name": "Carapicuíba",
+        "slug": "carapicuiba"
+      },
+      {
+        "name": "Cotia",
+        "slug": "cotia"
+      },
+      {
+        "name": "Itapevi",
+        "slug": "itapevi"
+      },
+      {
+        "name": "Jandira",
+        "slug": "jandira"
+      },
+      {
+        "name": "Santana de Parnaíba",
+        "slug": "santana-de-parnaiba"
+      },
+      {
+        "name": "Taboão da Serra",
+        "slug": "taboao-da-serra"
+      }
     ]
   },
   {
     "name": "Região Metropolitana — Norte e Leste",
     "slug": "regiao-metropolitana-norte-leste",
     "cities": [
-      { "name": "Guarulhos", "slug": "guarulhos" },
-      { "name": "Mogi das Cruzes", "slug": "mogi-das-cruzes" },
-      { "name": "Itaquaquecetuba", "slug": "itaquaquecetuba" },
-      { "name": "Suzano", "slug": "suzano" },
-      { "name": "Ferraz de Vasconcelos", "slug": "ferraz-de-vasconcelos" },
-      { "name": "Poá", "slug": "poa" },
-      { "name": "Arujá", "slug": "aruja" }
+      {
+        "name": "Guarulhos",
+        "slug": "guarulhos"
+      },
+      {
+        "name": "Mogi das Cruzes",
+        "slug": "mogi-das-cruzes"
+      },
+      {
+        "name": "Itaquaquecetuba",
+        "slug": "itaquaquecetuba"
+      },
+      {
+        "name": "Suzano",
+        "slug": "suzano"
+      },
+      {
+        "name": "Ferraz de Vasconcelos",
+        "slug": "ferraz-de-vasconcelos"
+      },
+      {
+        "name": "Poá",
+        "slug": "poa"
+      },
+      {
+        "name": "Arujá",
+        "slug": "aruja"
+      }
     ]
   },
   {
     "name": "Região Metropolitana — Sul",
     "slug": "regiao-metropolitana-sul",
     "cities": [
-      { "name": "Embu das Artes", "slug": "embu-das-artes" },
-      { "name": "Itapecerica da Serra", "slug": "itapecerica-da-serra" },
-      { "name": "Embu-Guaçu", "slug": "embu-guacu" }
+      {
+        "name": "Embu das Artes",
+        "slug": "embu-das-artes"
+      },
+      {
+        "name": "Itapecerica da Serra",
+        "slug": "itapecerica-da-serra"
+      },
+      {
+        "name": "Embu-Guaçu",
+        "slug": "embu-guacu"
+      }
+    ]
+  },
+  {
+    "name": "Região Metropolitana de São Paulo — Oeste",
+    "slug": "rm-oeste",
+    "cities": [
+      {
+        "name": "Cajamar",
+        "slug": "cajamar"
+      },
+      {
+        "name": "Vargem Grande Paulista",
+        "slug": "vargem-grande-paulista"
+      }
+    ]
+  },
+  {
+    "name": "Região Metropolitana de São Paulo — Norte",
+    "slug": "rm-norte",
+    "cities": [
+      {
+        "name": "Franco da Rocha",
+        "slug": "franco-da-rocha"
+      },
+      {
+        "name": "Francisco Morato",
+        "slug": "francisco-morato"
+      }
+    ]
+  },
+  {
+    "name": "Interior de São Paulo",
+    "slug": "interior-sao-paulo",
+    "cities": [
+      {
+        "name": "Artur Nogueira",
+        "slug": "artur-nogueira"
+      }
     ]
   }
 ]
