@@ -61,14 +61,13 @@ function ProductCard({ product }: { product: Product }) {
   const availableSizes = getAvailableSizes(product);
   const currentSize = getSizeData(product, size) ?? getSizeData(product, availableSizes[0])!;
 
-  const handleOrder = () => {
-    const message = quickOrderMessage({
+  const orderWhatsappUrl = buildWhatsappUrl(
+    quickOrderMessage({
       productName: product.name,
       sizeLabel: SIZE_LABELS[size],
       formattedPrice: formatPrice(currentSize.price),
-    });
-    window.open(buildWhatsappUrl(message), "_blank");
-  };
+    }),
+  );
 
   return (
     <div className="group flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-[0_2px_12px_rgba(0,0,0,0.08)]">
@@ -138,14 +137,16 @@ function ProductCard({ product }: { product: Product }) {
             </div>
           </div>
 
-          <button
-            type="button"
-            onClick={handleOrder}
+          <a
+            href={orderWhatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Pedir ${product.name} pelo WhatsApp`}
             className="flex w-full items-center justify-center gap-1.5 rounded-full bg-[#2D5A3D] px-2 py-2 text-[13px] font-medium text-white transition-opacity hover:opacity-90"
           >
             <MessageCircle className="size-3.5" />
             Pedir pelo WhatsApp
-          </button>
+          </a>
         </div>
       </div>
 
