@@ -3,17 +3,17 @@
     "id": "coroa-de-flores-tradicional-a",
     "name": "Coroa de Flores Tradicional A",
     "category": "tradicionais",
-    "price": "R$ 315 – R$ 360",
+    "price": "R$ 360 – R$ 415",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/a-3-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 315.0,
+        "price": 360.0,
         "height": 120,
         "width": 100
       },
       "big": {
-        "price": 360.0,
+        "price": 415.0,
         "height": 150,
         "width": 100
       }
@@ -23,17 +23,17 @@
     "id": "coroa-de-flores-tradicional-b",
     "name": "Coroa de Flores Tradicional B",
     "category": "tradicionais",
-    "price": "R$ 345 – R$ 400",
+    "price": "R$ 395 – R$ 460",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/b-4-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 345.0,
+        "price": 395.0,
         "height": 120,
         "width": 100
       },
       "big": {
-        "price": 400.0,
+        "price": 460.0,
         "height": 150,
         "width": 100
       }
@@ -43,18 +43,18 @@
     "id": "coroa-de-flores-tradicional-c",
     "name": "Coroa de Flores Tradicional C",
     "category": "tradicionais",
-    "price": "R$ 370 – R$ 425",
+    "price": "R$ 425 – R$ 490",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/c-3-scaled.jpg",
     "bestSeller": true,
     "sizes": {
       "default": {
-        "price": 370.0,
+        "price": 425.0,
         "height": 120,
         "width": 100
       },
       "big": {
-        "price": 425.0,
+        "price": 490.0,
         "height": 150,
         "width": 100
       }
@@ -64,32 +64,12 @@
     "id": "coroa-de-flores-tradicional-g",
     "name": "Coroa de Flores Tradicional G",
     "category": "tradicionais",
-    "price": "R$ 390 – R$ 450",
+    "price": "R$ 450 – R$ 520",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/g-1-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 390.0,
-        "height": 120,
-        "width": 100
-      },
-      "big": {
         "price": 450.0,
-        "height": 150,
-        "width": 100
-      }
-    }
-  },
-  {
-    "id": "coroa-de-flores-tradicional-f",
-    "name": "Coroa de Flores Tradicional F",
-    "category": "tradicionais",
-    "price": "R$ 455 – R$ 520",
-    "description": "",
-    "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/f-3-scaled.jpg",
-    "sizes": {
-      "default": {
-        "price": 455.0,
         "height": 120,
         "width": 100
       },
@@ -101,20 +81,40 @@
     }
   },
   {
-    "id": "coroa-de-flores-tradicional-e",
-    "name": "Coroa de Flores Tradicional E",
+    "id": "coroa-de-flores-tradicional-f",
+    "name": "Coroa de Flores Tradicional F",
     "category": "tradicionais",
-    "price": "R$ 495 – R$ 575",
+    "price": "R$ 525 – R$ 600",
     "description": "",
-    "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/e-3-scaled.jpg",
+    "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/f-3-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 495.0,
+        "price": 525.0,
         "height": 120,
         "width": 100
       },
       "big": {
-        "price": 575.0,
+        "price": 600.0,
+        "height": 150,
+        "width": 100
+      }
+    }
+  },
+  {
+    "id": "coroa-de-flores-tradicional-e",
+    "name": "Coroa de Flores Tradicional E",
+    "category": "tradicionais",
+    "price": "R$ 570 – R$ 660",
+    "description": "",
+    "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/e-3-scaled.jpg",
+    "sizes": {
+      "default": {
+        "price": 570.0,
+        "height": 120,
+        "width": 100
+      },
+      "big": {
+        "price": 660.0,
         "height": 150,
         "width": 100
       }
@@ -124,17 +124,17 @@
     "id": "coroa-de-flores-tradicional-d",
     "name": "Coroa de Flores Tradicional D",
     "category": "tradicionais",
-    "price": "R$ 380 – R$ 430",
+    "price": "R$ 435 – R$ 495",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/d-3-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 380.0,
+        "price": 435.0,
         "height": 120,
         "width": 100
       },
       "big": {
-        "price": 430.0,
+        "price": 495.0,
         "height": 150,
         "width": 100
       }
@@ -144,17 +144,17 @@
     "id": "coroa-de-flores-ouro-a",
     "name": "Coroa de Flores Ouro A",
     "category": "ouro",
-    "price": "R$ 510 – R$ 585",
+    "price": "R$ 585 – R$ 675",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/A-1-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 510.0,
+        "price": 585.0,
         "height": 120,
         "width": 100
       },
       "big": {
-        "price": 585.0,
+        "price": 675.0,
         "height": 150,
         "width": 100
       }
@@ -164,18 +164,18 @@
     "id": "coroa-de-flores-ouro-f",
     "name": "Coroa de Flores Ouro F",
     "category": "ouro",
-    "price": "R$ 490 – R$ 590",
+    "price": "R$ 565 – R$ 680",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/f-1-scaled.jpg",
     "bestSeller": true,
     "sizes": {
       "default": {
-        "price": 490.0,
+        "price": 565.0,
         "height": 120,
         "width": 100
       },
       "big": {
-        "price": 590.0,
+        "price": 680.0,
         "height": 150,
         "width": 100
       }
@@ -185,17 +185,17 @@
     "id": "coroa-de-flores-ouro-g",
     "name": "Coroa de Flores Ouro G",
     "category": "ouro",
-    "price": "R$ 550 – R$ 635",
+    "price": "R$ 630 – R$ 730",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/G-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 550.0,
+        "price": 630.0,
         "height": 120,
         "width": 100
       },
       "big": {
-        "price": 635.0,
+        "price": 730.0,
         "height": 150,
         "width": 100
       }
@@ -205,12 +205,72 @@
     "id": "coroa-de-flores-ouro-d",
     "name": "Coroa de Flores Ouro D",
     "category": "ouro",
-    "price": "R$ 515 – R$ 590",
+    "price": "R$ 590 – R$ 680",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/D-1-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 515.0,
+        "price": 590.0,
+        "height": 120,
+        "width": 100
+      },
+      "big": {
+        "price": 680.0,
+        "height": 150,
+        "width": 100
+      }
+    }
+  },
+  {
+    "id": "coroa-de-flores-ouro-e",
+    "name": "Coroa de Flores Ouro E",
+    "category": "ouro",
+    "price": "R$ 675 – R$ 770",
+    "description": "",
+    "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/E-1-scaled.jpg",
+    "sizes": {
+      "default": {
+        "price": 675.0,
+        "height": 120,
+        "width": 100
+      },
+      "big": {
+        "price": 770.0,
+        "height": 150,
+        "width": 100
+      }
+    }
+  },
+  {
+    "id": "coroa-de-flores-ouro-c",
+    "name": "Coroa de Flores Ouro C",
+    "category": "ouro",
+    "price": "R$ 545 – R$ 625",
+    "description": "",
+    "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/C-1-scaled.jpg",
+    "sizes": {
+      "default": {
+        "price": 545.0,
+        "height": 120,
+        "width": 100
+      },
+      "big": {
+        "price": 625.0,
+        "height": 150,
+        "width": 100
+      }
+    }
+  },
+  {
+    "id": "coroa-de-flores-ouro-b",
+    "name": "Coroa de Flores Ouro B",
+    "category": "ouro",
+    "price": "R$ 520 – R$ 590",
+    "description": "",
+    "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/b-2-scaled.jpg",
+    "sizes": {
+      "default": {
+        "price": 520.0,
         "height": 120,
         "width": 100
       },
@@ -222,80 +282,20 @@
     }
   },
   {
-    "id": "coroa-de-flores-ouro-e",
-    "name": "Coroa de Flores Ouro E",
-    "category": "ouro",
-    "price": "R$ 585 – R$ 670",
-    "description": "",
-    "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/E-1-scaled.jpg",
-    "sizes": {
-      "default": {
-        "price": 585.0,
-        "height": 120,
-        "width": 100
-      },
-      "big": {
-        "price": 670.0,
-        "height": 150,
-        "width": 100
-      }
-    }
-  },
-  {
-    "id": "coroa-de-flores-ouro-c",
-    "name": "Coroa de Flores Ouro C",
-    "category": "ouro",
-    "price": "R$ 475 – R$ 545",
-    "description": "",
-    "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/C-1-scaled.jpg",
-    "sizes": {
-      "default": {
-        "price": 475.0,
-        "height": 120,
-        "width": 100
-      },
-      "big": {
-        "price": 545.0,
-        "height": 150,
-        "width": 100
-      }
-    }
-  },
-  {
-    "id": "coroa-de-flores-ouro-b",
-    "name": "Coroa de Flores Ouro B",
-    "category": "ouro",
-    "price": "R$ 450 – R$ 515",
-    "description": "",
-    "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/b-2-scaled.jpg",
-    "sizes": {
-      "default": {
-        "price": 450.0,
-        "height": 120,
-        "width": 100
-      },
-      "big": {
-        "price": 515.0,
-        "height": 150,
-        "width": 100
-      }
-    }
-  },
-  {
     "id": "coroa-de-flores-platina-a",
     "name": "Coroa de Flores Platina A",
     "category": "platina",
-    "price": "R$ 810 – R$ 975",
+    "price": "R$ 930 – R$ 1.120",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/a-2-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 810.0,
+        "price": 930.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 975.0,
+        "price": 1120.0,
         "height": 190,
         "width": 120
       }
@@ -305,17 +305,17 @@
     "id": "coroa-de-flores-platina-c",
     "name": "Coroa de Flores Platina C",
     "category": "platina",
-    "price": "R$ 950 – R$ 1.140",
+    "price": "R$ 1.090 – R$ 1.310",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/C-2-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 950.0,
+        "price": 1090.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 1140.0,
+        "price": 1310.0,
         "height": 190,
         "width": 120
       }
@@ -325,18 +325,18 @@
     "id": "coroa-de-flores-platina-f",
     "name": "Coroa de Flores Platina F",
     "category": "platina",
-    "price": "R$ 920 – R$ 1.100",
+    "price": "R$ 1.060 – R$ 1.265",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/F-2-scaled.jpg",
     "bestSeller": true,
     "sizes": {
       "default": {
-        "price": 920.0,
+        "price": 1060.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 1100.0,
+        "price": 1265.0,
         "height": 190,
         "width": 120
       }
@@ -346,17 +346,17 @@
     "id": "coroa-de-flores-platina-d",
     "name": "Coroa de Flores Platina D",
     "category": "platina",
-    "price": "R$ 855 – R$ 1.025",
+    "price": "R$ 985 – R$ 1.180",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/D-2-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 855.0,
+        "price": 985.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 1025.0,
+        "price": 1180.0,
         "height": 190,
         "width": 120
       }
@@ -366,17 +366,17 @@
     "id": "coroa-de-flores-platina-e",
     "name": "Coroa de Flores Platina E",
     "category": "platina",
-    "price": "R$ 745 – R$ 895",
+    "price": "R$ 855 – R$ 1.030",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/E-2-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 745.0,
+        "price": 855.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 895.0,
+        "price": 1030.0,
         "height": 190,
         "width": 120
       }
@@ -386,17 +386,17 @@
     "id": "coroa-de-flores-platina-b",
     "name": "Coroa de Flores Platina B",
     "category": "platina",
-    "price": "R$ 885 – R$ 1.065",
+    "price": "R$ 1.020 – R$ 1.225",
     "description": "",
     "image": "https://nobre-coroa-fotos.s3.us-east-1.amazonaws.com/platina b.png",
     "sizes": {
       "default": {
-        "price": 885.0,
+        "price": 1020.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 1065.0,
+        "price": 1225.0,
         "height": 190,
         "width": 120
       }
@@ -406,18 +406,18 @@
     "id": "coroa-de-flores-diamante-c",
     "name": "Coroa de Flores Diamante C",
     "category": "diamante",
-    "price": "R$ 1.135 – R$ 1.360",
+    "price": "R$ 1.305 – R$ 1.565",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/C-scaled.jpg",
     "bestSeller": true,
     "sizes": {
       "default": {
-        "price": 1135.0,
+        "price": 1305.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 1360.0,
+        "price": 1565.0,
         "height": 190,
         "width": 120
       }
@@ -427,17 +427,17 @@
     "id": "coroa-de-flores-diamante-b",
     "name": "Coroa de Flores Diamante B",
     "category": "diamante",
-    "price": "R$ 960 – R$ 1.155",
+    "price": "R$ 1.105 – R$ 1.330",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/b-1-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 960.0,
+        "price": 1105.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 1155.0,
+        "price": 1330.0,
         "height": 190,
         "width": 120
       }
@@ -447,17 +447,17 @@
     "id": "coroa-de-flores-diamante-a",
     "name": "Coroa de Flores Diamante A",
     "category": "diamante",
-    "price": "R$ 845 – R$ 1.010",
+    "price": "R$ 970 – R$ 1.160",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/A-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 845.0,
+        "price": 970.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 1010.0,
+        "price": 1160.0,
         "height": 190,
         "width": 120
       }
@@ -467,17 +467,17 @@
     "id": "coroa-de-flores-diamante-f",
     "name": "Coroa de Flores Diamante F",
     "category": "diamante",
-    "price": "R$ 2.920 – R$ 3.500",
+    "price": "R$ 3.360 – R$ 4.025",
     "description": "",
     "image": "https://nobre-coroa-fotos.s3.us-east-1.amazonaws.com/diamante f.png",
     "sizes": {
       "default": {
-        "price": 2920.0,
+        "price": 3360.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 3500.0,
+        "price": 4025.0,
         "height": 190,
         "width": 120
       }
@@ -487,17 +487,17 @@
     "id": "coroa-de-flores-diamante-d",
     "name": "Coroa de Flores Diamante D",
     "category": "diamante",
-    "price": "R$ 1.730 – R$ 2.075",
+    "price": "R$ 1.990 – R$ 2.385",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2025/11/D-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 1730.0,
+        "price": 1990.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 2075.0,
+        "price": 2385.0,
         "height": 190,
         "width": 120
       }
@@ -507,17 +507,17 @@
     "id": "coroa-de-flores-diamante-e",
     "name": "Coroa de Flores Diamante E",
     "category": "diamante",
-    "price": "R$ 2.105 – R$ 2.530",
+    "price": "R$ 2.420 – R$ 2.910",
     "description": "",
     "image": "https://nobre-coroa-fotos.s3.us-east-1.amazonaws.com/diamante e.png",
     "sizes": {
       "default": {
-        "price": 2105.0,
+        "price": 2420.0,
         "height": 170,
         "width": 120
       },
       "big": {
-        "price": 2530.0,
+        "price": 2910.0,
         "height": 190,
         "width": 120
       }
@@ -527,12 +527,12 @@
     "id": "arco-de-flores-premium-ouro",
     "name": "Arco de flores Premium Ouro",
     "category": "especiais",
-    "price": "R$ 890",
+    "price": "R$ 1.025",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2020/09/ARCO-DE-PREMIUM-OURO-1-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 890.0,
+        "price": 1025.0,
         "height": 100,
         "width": 100
       }
@@ -542,13 +542,13 @@
     "id": "arco-de-flores-premium-platina",
     "name": "Arco de flores Premium Platina",
     "category": "especiais",
-    "price": "R$ 1.250",
+    "price": "R$ 1.440",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2020/09/ARCO-PREMIUM-PLATINA-2-scaled.jpg",
     "bestSeller": true,
     "sizes": {
       "default": {
-        "price": 1250.0,
+        "price": 1440.0,
         "height": 100,
         "width": 100
       }
@@ -558,12 +558,12 @@
     "id": "cora-o-de-flores-premium-ouro",
     "name": "Coração de flores Premium Ouro",
     "category": "especiais",
-    "price": "R$ 950",
+    "price": "R$ 1.090",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2020/09/CORACAO-PREMIUM-OURO-3-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 950.0,
+        "price": 1090.0,
         "height": 100,
         "width": 100
       }
@@ -573,12 +573,12 @@
     "id": "cora-o-de-flores-premium-platina",
     "name": "Coração de flores Premium Platina",
     "category": "especiais",
-    "price": "R$ 1.550",
+    "price": "R$ 1.780",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2020/09/CORACAO-PREMIUM-PLATINA-1-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 1550.0,
+        "price": 1780.0,
         "height": 100,
         "width": 100
       }
@@ -588,12 +588,12 @@
     "id": "conjunto-de-coroa-de-flores-tradicional",
     "name": "Conjunto de Coroa de Flores Tradicional",
     "category": "especiais",
-    "price": "R$ 1.450",
+    "price": "R$ 1.665",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2020/09/CONJUNTO-DE-FLORES-TRADICIONAL-1-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 1450.0,
+        "price": 1665.0,
         "height": 120,
         "width": 100
       }
@@ -603,12 +603,12 @@
     "id": "conjunto-de-coroa-de-flores-ouro",
     "name": "Conjunto de Coroa de Flores Ouro",
     "category": "especiais",
-    "price": "R$ 1.850",
+    "price": "R$ 2.130",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2020/09/CONJUNTO-DE-FLORES-OURO-1-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 1850.0,
+        "price": 2130.0,
         "height": 120,
         "width": 100
       }
@@ -618,12 +618,12 @@
     "id": "conjunto-de-coroa-de-flores-platina",
     "name": "Conjunto de Coroa de Flores Platina",
     "category": "especiais",
-    "price": "R$ 2.500",
+    "price": "R$ 2.875",
     "description": "",
     "image": "https://nobre-coroa-fotos.s3.us-east-1.amazonaws.com/WhatsApp Image 2024-11-08 at 17.33.24 (3).jpeg",
     "sizes": {
       "default": {
-        "price": 2500.0,
+        "price": 2875.0,
         "height": 120,
         "width": 100
       }
@@ -633,12 +633,12 @@
     "id": "conjunto-de-coroa-de-flores-diamante",
     "name": "Conjunto de Coroa de Flores Diamante",
     "category": "especiais",
-    "price": "R$ 3.300",
+    "price": "R$ 3.795",
     "description": "",
     "image": "https://coroadefloresnobre.com.br/wp-content/uploads/2020/09/CONJUNTO-DE-FLORES-DIAMANTE-1-scaled.jpg",
     "sizes": {
       "default": {
-        "price": 3300.0,
+        "price": 3795.0,
         "height": 120,
         "width": 100
       }
