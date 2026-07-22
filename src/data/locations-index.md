@@ -6,9 +6,9 @@ Para regenerar: `node scripts/build-locations-index.mjs`
 
 ## Resumo
 
-- **BH** (coroafloresbelohorizonte.com.br): 137 locais — ✅ 22 completos · 🟡 115 genéricos
-- **RJ** (coroafloresriodejaneiro.com.br): 173 locais — ✅ 0 completos · 🟡 173 genéricos
-- **SP** (coroafloressaopaulo.com.br): 258 locais — ✅ 0 completos · 🟡 258 genéricos
+- **BH** (coroafloresbelohorizonte.com.br): 138 locais — ✅ 22 completos · 🟡 116 genéricos
+- **RJ** (coroafloresriodejaneiro.com.br): 176 locais — ✅ 0 completos · 🟡 176 genéricos
+- **SP** (coroafloressaopaulo.com.br): 264 locais — ✅ 0 completos · 🟡 264 genéricos
 
 ## Legenda de status
 
@@ -19,7 +19,7 @@ Para regenerar: `node scripts/build-locations-index.mjs`
 
 Cada slug vira `https://{domínio do site}/{slug}`.
 
-## BH — coroafloresbelohorizonte.com.br (137 locais)
+## BH — coroafloresbelohorizonte.com.br (138 locais)
 
 | Status | Slug | Nome | Cidade |
 |---|---|---|---|
@@ -149,6 +149,7 @@ Cada slug vira `https://{domínio do site}/{slug}`.
 | 🟡 | `memorial-zelo-sete-lagoas` | Memorial Zelo | Sete Lagoas |
 | 🟡 | `funeraria-liv` | Funeraria Liv | Uberaba |
 | 🟡 | `memorial-parque` | Memorial Parque | Uberaba |
+| 🟡 | `memorial-parque-uberaba` | Memorial Parque Uberaba | Uberaba |
 | 🟡 | `cemiterio-campo-do-bom-pastor` | Cemitério Campo do Bom Pastor | Uberlândia |
 | 🟡 | `cemiterio-municipal-sao-pedro` | Cemitério Municipal São Pedro | Uberlândia |
 | 🟡 | `cemiterio-olavo-chaves` | Cemitério Olavo Chaves | Uberlândia |
@@ -161,7 +162,7 @@ Cada slug vira `https://{domínio do site}/{slug}`.
 | 🟡 | `cemiterio-velho-de-vespasiano` | Cemitério Velho de Vespasiano | Vespasiano |
 | 🟡 | `memorial-zelo` | Memorial Zelo | Vespasiano |
 
-## RJ — coroafloresriodejaneiro.com.br (173 locais)
+## RJ — coroafloresriodejaneiro.com.br (176 locais)
 
 | Status | Slug | Nome | Cidade |
 |---|---|---|---|
@@ -215,6 +216,7 @@ Cada slug vira `https://{domínio do site}/{slug}`.
 | 🟡 | `cemiterio-jardim-da-saudade` | Cemitério Jardim da Saudade | Mesquita |
 | 🟡 | `cemiterio-jardim-de-mesquita` | Cemitério Jardim de Mesquita | Mesquita |
 | 🟡 | `cemiterio-municipal-mesquita` | Cemitério Municipal | Mesquita |
+| 🟡 | `cemiterio-municipal-de-nilopolis` | Cemitério Municipal de Nilópolis | Nilópolis |
 | 🟡 | `cemiterio-nilopolis-nilopolis` | Cemitério Nilópolis | Nilópolis |
 | 🟡 | `assistencia-funeral-rio-pax` | Assistência Funeral Rio Pax | Niterói |
 | 🟡 | `assistencia-funeraria-niteroi` | Assistência Funerária Niterói | Niterói |
@@ -252,6 +254,7 @@ Cada slug vira `https://{domínio do site}/{slug}`.
 | 🟡 | `funerarias-capixaba` | Funerárias Capixaba | Petrópolis |
 | 🟡 | `plano-de-assistencia-funeral-ruy-ligeiro` | Plano de Assistência Funeral Ruy Ligeiro | Petrópolis |
 | 🟡 | `plano-de-assistencia-funeral-vital-ligeiro` | Plano de Assistência Funeral Vital Ligeiro | Petrópolis |
+| 🟡 | `cemiterio-municipal-de-queimados` | Cemitério Municipal de Queimados | Queimados |
 | 🟡 | `cemiterio-queimados-queimados` | Cemitério Queimados | Queimados |
 | 🟡 | `assistencia-funeral-salomao-lisboa` | Assistência Funeral Salomão Lisboa | Rio de Janeiro |
 | 🟡 | `assistencia-funeral-santa-casa-24-horas` | Assistência Funeral Santa Casa 24 Horas | Rio de Janeiro |
@@ -337,9 +340,10 @@ Cada slug vira `https://{domínio do site}/{slug}`.
 | 🟡 | `cemiterio-sampaio-correa` | Cemitério Sampaio Corrêa | Saquarema |
 | 🟡 | `cemiterio-municipal-tangua` | Cemitério Municipal | Tanguá |
 | 🟡 | `capela-municipal` | Capela Municipal | Volta Redonda |
+| 🟡 | `capela-municipal-de-volta-redonda` | Capela Municipal de Volta Redonda | Volta Redonda |
 | 🟡 | `cemiterio-portal-da-saudade` | Cemitério Portal da Saudade | Volta Redonda |
 
-## SP — coroafloressaopaulo.com.br (258 locais)
+## SP — coroafloressaopaulo.com.br (264 locais)
 
 | Status | Slug | Nome | Cidade |
 |---|---|---|---|
@@ -364,6 +368,7 @@ Cada slug vira `https://{domínio do site}/{slug}`.
 | 🟡 | `cemiterio-sousas` | Sousas | Campinas |
 | 🟡 | `cemiterio-ariston` | Cemitério Ariston | Carapicuíba |
 | 🟡 | `funeraria-sao-paulo` | Funerária São Paulo | Carapicuíba |
+| 🟡 | `funeraria-sao-paulo-carapicuiba` | Funerária São Paulo (Carapicuíba) | Carapicuíba |
 | 🟡 | `funeraria-souza` | Funerária Souza | Carapicuíba |
 | 🟡 | `cemiterio-jardim-das-flores` | Cemitério Jardim das Flores | Cotia |
 | 🟡 | `cemiterio-novo-maranhao` | Cemitério Novo Maranhão | Cotia |
@@ -404,6 +409,7 @@ Cada slug vira `https://{domínio do site}/{slug}`.
 | 🟡 | `funeraria-alves-hortolandia` | Funerária Alves | Hortolândia |
 | 🟡 | `funeraria-flamboyant` | Funerária Hortolandia (Grupo Zelo Flamboyant) | Hortolândia |
 | 🟡 | `funeraria-grupo-serra-funeraria` | Grupo Serra Funerária | Hortolândia |
+| 🟡 | `memorial-crematorio-de-hortolandia` | Memorial Crematório de Hortolândia | Hortolândia |
 | 🟡 | `cemiterio-parque-hortolandia` | Parque Hortolandia | Hortolândia |
 | 🟡 | `cemiterio-horto-da-paz` | Cemitério Horto da Paz | Itapecerica da Serra |
 | 🟡 | `cemiterio-parque-dos-ipes-itapecerica` | Cemitério Parque dos Ipês | Itapecerica da Serra |
@@ -425,6 +431,7 @@ Cada slug vira `https://{domínio do site}/{slug}`.
 | 🟡 | `velorio-adamastor-fernandes` | Velório Municipal Adamastor Fernandes | Jundiaí |
 | 🟡 | `cemiterio-alemaes` | Cemitério Alemães | Limeira |
 | 🟡 | `cemiterio-parque` | Cemitério Parque | Limeira |
+| 🟡 | `cemiterio-parque-de-limeira` | Cemitério Parque de Limeira | Limeira |
 | 🟡 | `grupo-bom-pastor-limeira` | Momumental Grupo Bom Pastor | Limeira |
 | 🟡 | `cemiterio-parque-limeira` | Parque | Limeira |
 | 🟡 | `cemiterio-saudades` | Saudades | Limeira |
@@ -433,6 +440,7 @@ Cada slug vira `https://{domínio do site}/{slug}`.
 | 🟡 | `vale-dos-pinheirais` | Vale Dos Pinheirais | Mauá |
 | 🟡 | `cemiterio-parque-das-oliveiras` | Cemitério Parque das Oliveiras | Mogi das Cruzes |
 | 🟡 | `cemiterio-sao-salvador` | Cemitério São Salvador | Mogi das Cruzes |
+| 🟡 | `cemiterio-municipal-de-nova-odessa` | Cemitério Municipal de Nova Odessa | Nova Odessa |
 | 🟡 | `municipal` | Municipal | Nova Odessa |
 | 🟡 | `agencia-funebre-industrial-centro` | Agência Fúnebre Industrial Centro | Osasco |
 | 🟡 | `aquarelli-assist-familiar` | Aquarelli Assist Familiar | Osasco |
@@ -493,6 +501,7 @@ Cada slug vira `https://{domínio do site}/{slug}`.
 | 🟡 | `abcel-assistencia-funeral-sao-caetano-do-sul` | ABCEL Assistência Funeral | São Caetano do Sul |
 | 🟡 | `ceramica` | Cemitério da Cerâmica | São Caetano do Sul |
 | 🟡 | `municipal-saudade` | Cemitério Municipal da Saudade | São Caetano do Sul |
+| 🟡 | `municipal-saudade-sao-caetano-do-sul` | Cemitério Municipal da Saudade | São Caetano do Sul |
 | 🟡 | `sao-caetano` | Cemitério São Caetano | São Caetano do Sul |
 | 🟡 | `funeraria-hebrom` | Funerária HEBROM | São Caetano do Sul |
 | 🟡 | `funeraria-nova-gerty` | Funerária Nova Gerty | São Caetano do Sul |
@@ -583,6 +592,7 @@ Cada slug vira `https://{domínio do site}/{slug}`.
 | 🟡 | `cemiterio-municipal-saudade` | Municipal Saudade | Sumaré |
 | 🟡 | `cemiterio-parque-primaveras` | Parque Primaveras | Sumaré |
 | 🟡 | `velorio-municipal` | Velório Municipal | Sumaré |
+| 🟡 | `velorio-municipal-de-sumare` | Velório Municipal de Sumaré | Sumaré |
 | 🟡 | `cemiterio-colina-dos-ipes` | Cemitério Colina dos Ipês | Suzano |
 | 🟡 | `cemiterio-sao-joao-batista-suzano` | Cemitério São João Batista | Suzano |
 | 🟡 | `cemiterio-sao-sebastiao` | Cemitério São Sebastião | Suzano |
