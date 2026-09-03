@@ -19,7 +19,7 @@ const defaultTributeSections: LocationSection[] = [
   {
     title: "Entrega com cuidado e pontualidade",
     paragraphs: [
-      "A Coroa de Flores Nobre garante a entrega no local e horário combinados. Antes da entrega, enviamos uma foto da coroa pronta para sua aprovação, assegurando que tudo esteja perfeito para a homenagem.",
+      "A Coroa de Flores garante a entrega no local e horário combinados. Antes da entrega, enviamos uma foto da coroa pronta para sua aprovação, assegurando que tudo esteja perfeito para a homenagem.",
       "Nosso atendimento funciona 24 horas, incluindo feriados e finais de semana, para que você possa contar conosco sempre que precisar.",
     ],
   },

@@ -1,4 +1,4 @@
-# Coroa de Flores Nobre
+# Coroa de Flores
 
 Site institucional e catálogo de coroas de flores para velórios e homenagens fúnebres. Atende Belo Horizonte e região metropolitana de Minas Gerais. Pedidos são feitos via WhatsApp com atendentes humanos (sem checkout automatizado).
 

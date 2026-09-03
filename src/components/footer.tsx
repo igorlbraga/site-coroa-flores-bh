@@ -20,7 +20,7 @@ export function Footer() {
         {/* Coluna 1 — Identidade */}
         <div className="space-y-1">
           <p className="font-serif text-lg font-semibold text-white">
-            Coroa de Flores Nobre
+            Coroa de Flores
           </p>
           <p className="text-sm text-gray-400">CNPJ: 51.633.347/0001-02</p>
           <p className="text-sm text-gray-400">{city.contact.email}</p>
@@ -85,7 +85,7 @@ export function Footer() {
       {/* Divisória + Copyright */}
       <hr className="mx-auto my-8 max-w-6xl border-white/10" />
       <p className="text-center text-[13px] text-gray-400">
-        © 2026 Coroa de Flores Nobre. Todos os direitos reservados.
+        © 2026 Coroa de Flores. Todos os direitos reservados.
       </p>
     </footer>
   );

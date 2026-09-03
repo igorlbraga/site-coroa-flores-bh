@@ -6,16 +6,16 @@ import { ContactCta } from "@/components/contact-cta";
 export const metadata: Metadata = {
   title: "Contato",
   description:
-    "Fale com a Coroa de Flores Nobre pelo WhatsApp ou telefone. Atendimento humano 24 horas, todos os dias, inclusive feriados.",
+    "Fale com a Coroa de Flores pelo WhatsApp ou telefone. Atendimento humano 24 horas, todos os dias, inclusive feriados.",
   alternates: {
     canonical: "/contato",
   },
   openGraph: {
-    title: "Contato | Coroa de Flores Nobre",
+    title: "Contato | Coroa de Flores",
     description:
-      "Fale com a Coroa de Flores Nobre pelo WhatsApp ou telefone. Atendimento humano 24 horas, todos os dias.",
+      "Fale com a Coroa de Flores pelo WhatsApp ou telefone. Atendimento humano 24 horas, todos os dias.",
     url: "/contato",
-    siteName: "Coroa de Flores Nobre",
+    siteName: "Coroa de Flores",
     locale: "pt_BR",
     type: "website",
   },

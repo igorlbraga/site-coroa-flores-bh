@@ -37,7 +37,7 @@ export async function generateMetadata({
   const location = getLocationBySlug(slug)
   if (!location) return {}
 
-  const title = `${location.title} | Coroa de Flores Nobre`
+  const title = `${location.title} | Coroa de Flores`
   const description =
     location.introduction.length > 155
       ? location.introduction.slice(0, 152) + "..."
@@ -53,7 +53,7 @@ export async function generateMetadata({
       title,
       description,
       url: `/${location.slug}`,
-      siteName: "Coroa de Flores Nobre",
+      siteName: "Coroa de Flores",
       locale: "pt_BR",
       type: "website",
     },

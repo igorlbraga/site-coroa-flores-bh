@@ -14,10 +14,10 @@ export const metadata: Metadata = {
     canonical: "/catalogo",
   },
   openGraph: {
-    title: "Catálogo de Coroas de Flores | Coroa de Flores Nobre",
+    title: "Catálogo de Coroas de Flores | Coroa de Flores",
     description: city.config.copy.catalogMetadataDescription,
     url: "/catalogo",
-    siteName: "Coroa de Flores Nobre",
+    siteName: "Coroa de Flores",
     locale: "pt_BR",
     type: "website",
   },

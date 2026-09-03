@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
     default: city.config.copy.metadataTitle,
-    template: "%s | Coroa de Flores Nobre",
+    template: "%s | Coroa de Flores",
   },
   description: city.config.copy.metadataDescription,
   icons: {
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: city.config.copy.metadataTitle,
     description: city.config.copy.metadataDescription,
     url: "/",
-    siteName: "Coroa de Flores Nobre",
+    siteName: "Coroa de Flores",
     locale: "pt_BR",
     type: "website",
     images: [

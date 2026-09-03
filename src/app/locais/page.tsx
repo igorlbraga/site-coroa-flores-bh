@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     canonical: "/locais",
   },
   openGraph: {
-    title: "Locais de Entrega | Coroa de Flores Nobre",
+    title: "Locais de Entrega | Coroa de Flores",
     description: city.config.copy.locationsMetadataOgDescription,
     url: "/locais",
-    siteName: "Coroa de Flores Nobre",
+    siteName: "Coroa de Flores",
     locale: "pt_BR",
     type: "website",
   },

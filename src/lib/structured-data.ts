@@ -19,7 +19,7 @@ export function buildLocalBusinessSchema(location: Location) {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: `Coroa de Flores Nobre — ${location.name}`,
+    name: `Coroa de Flores — ${location.name}`,
     description: location.introduction.slice(0, 200),
     url: `${BASE_URL}/${location.slug}`,
     telephone: city.contact.phoneFormatted,
@@ -85,7 +85,7 @@ export function buildServiceSchema(location: Location) {
     serviceType: "Entrega de Coroa de Flores",
     provider: {
       "@type": "LocalBusiness",
-      name: "Coroa de Flores Nobre",
+      name: "Coroa de Flores",
       telephone: city.contact.phoneFormatted,
     },
     areaServed: {
